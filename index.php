@@ -1,28 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CUSTOM CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <!-- FAVICON  -->
-    <link rel="icon" type="image/png" href="assets/favicon.png">
-    <!-- BOOTSTRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-    <!-- INFO -->
-    <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Como usar para impulsionar seu negócio | Localfy">
-    <meta property="og:url" content="https://localfy.com.br">
-    <meta property="og:image" content="https://localfy.com.br/assets/metaog.jpg">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Localfy">
-    <meta property="og:description" content="Descubra como usar o Google Meu Negócio para melhorar a visibilidade online da sua empresa. Aprenda dicas valiosas para destacar sua marca na web. Saiba mais!">
-    <meta name="description" content="Descubra como usar o Google Meu Negócio para melhorar a visibilidade online da sua empresa. Aprenda dicas valiosas para destacar sua marca na web. Saiba mais!">
-    <link rel="canonical" href="https://localfy.com.br">
-    <title>Como usar para impulsionar seu negócio | Localfy</title>
+    <?php include_once 'includes/heading.php'; ?>
 </head>
 <body>
     <header>
@@ -160,59 +139,8 @@
     </section>
 
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-3">
-                    <span>Sobre</span>
-                    <ul>
-                        <li>Quem somos</li>
-                        <li>Serviços</li>
-                        <li>Recursos</li>
-                        <li>Perguntas Frequentes</li>
-                        <li>Termos e Condições</li>
-                    </ul>
-                </div>
-
-                <div class="col-3">
-                    <span>Aprendizado</span>
-                    <ul>
-                        <li>Ajuda</li>
-                        <li>Dicas para negócios</li>
-                        <li>Serviços Locais</li>
-                        <li>Depoimentos</li>
-                    </ul>
-                </div>
-
-                <div class="col-3">
-                    <span>Dicas</span>
-                    <ul>
-                        <li>Restaurantes</li>
-                        <li>Salões de Beleza</li>
-                        <li>Mecânicas</li>
-                        <li>Dentistas</li>
-                        <li>Móveis</li>
-                    </ul>
-                </div>
-
-                <div class="col-3">
-                    <span>Redes Sociais</span>
-                    <ul>
-                        <li><i class="bi-facebook" style="font-size: 20px;"></i> Facebook</li>
-                        <li><i class="bi-linkedin" style="font-size: 20px;"></i> Linkedin</li>
-                        <li><i class="bi-twitter" style="font-size: 20px;"></i> Twitter</li>
-                        <li><i class="bi-instagram" style="font-size: 20px;"></i> Instagram</li>
-                    </ul>
-                </div>
-            </div>
-            <hr>
-            <p>Todos os direitos reservados - Localfy</p>
-        </div>
+        <?php include_once 'includes/footer.php'; ?>
     </footer>
-
-    <!-- <div class="whats-button">
-        <a href="" target="_blank"><img src="assets/whatsapp.webp">
-        </a>
-    </div> -->
     
     <!-- SCRIPTS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
