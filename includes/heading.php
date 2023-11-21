@@ -1,22 +1,39 @@
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- CUSTOM CSS -->
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/aos.css">
-<!-- FAVICON  -->
-<link rel="icon" type="image/png" href="assets/favicon.png">
-<!-- BOOTSTRAP -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-<!-- INFO -->
-<meta name="robots" content="index, follow">
-<meta property="og:title" content="Como usar para impulsionar seu negócio | Localfy">
-<meta property="og:url" content="https://localfy.com.br">
-<meta property="og:image" content="https://localfy.com.br/assets/metaog.jpg">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Localfy">
-<meta property="og:description" content="Descubra como usar o Google Meu Negócio para melhorar a visibilidade online da sua empresa. Aprenda dicas valiosas para destacar sua marca na web. Saiba mais!">
-<meta name="description" content="Descubra como usar o Google Meu Negócio para melhorar a visibilidade online da sua empresa. Aprenda dicas valiosas para destacar sua marca na web. Saiba mais!">
-<link rel="canonical" href="https://localfy.com.br">
-<title>Como usar para impulsionar seu negócio | Localfy</title>
+<?php
+    // Obtém a rota atual
+    $currentRoute = $_SERVER['REQUEST_URI'];
+
+    // Define o título e a descrição padrões
+    $title = "Localfy";
+    $description = "A sua empresa na web";
+    $canonicalUrl = "https://localfy.com.br";
+
+    // Verifica a rota e ajusta o título e a descrição conforme necessário
+    switch ($currentRoute) {
+        case '/ajuda':
+            $title = "Ajuda | Localfy";
+            $description = "Obtenha ajuda sobre como impulsionar seu negócio com Localfy";
+            $canonicalUrl = "https://localfy.com.br/ajuda";
+            break;
+        // Adicione mais casos conforme necessário
+    }
+
+    // Imprime as meta tags com os valores dinâmicos
+    echo '<title>' . htmlspecialchars($title) . '</title>';
+    echo '<meta charset="UTF-8">';
+    echo '<meta http-equiv="X-UA-Compatible" content="IE=edge">';
+    echo '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
+    echo '<meta name="description" content="' . htmlspecialchars($description) . '">';
+    echo '<meta property="og:title" content="' . htmlspecialchars($title) . '">';
+    echo '<meta property="og:description" content="' . htmlspecialchars($description) . '">';
+    echo '<meta property="og:url" content="' . htmlspecialchars($canonicalUrl) . '">';
+    echo '<meta property="og:type" content="website">';
+    echo '<meta property="og:site_name" content="Localfy">';
+    echo '<meta property="og:image" content="https://localfy.com.br/assets/metaog.jpg">';
+    echo '<meta name="robots" content="index, follow">';
+    echo '<link rel="canonical" href="' . htmlspecialchars($canonicalUrl) . '">';
+    echo '<link rel="icon" type="image/png" href="assets/favicon.png">';
+    echo '<link rel="stylesheet" href="css/style.css">';
+    echo '<link rel="stylesheet" href="css/aos.css">';
+    echo '<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet">';
+    echo '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">';
+    ?>
