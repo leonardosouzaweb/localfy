@@ -6,7 +6,7 @@
 <body>
     <header>
         <div class="container">
-            <div class="row">
+            <div class="row pt-3 pb-3">
                 <div class="col-4 my-auto">
                     <a href="./"><img src="assets/logo.svg" alt="logo"></a>
                     <span>Conectando seu negócio <br>local ao mundo digital</span>
@@ -20,6 +20,23 @@
                             </li></a>
                         </ul>
                     </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="navbarTop">
+            <div class="container">
+                <div class="itens">
+                    <div>
+                        <h6>Navegação</h6>
+                    </div>
+                    <ul>
+                        <li>Home</li>
+                        <li>Quem somos</li>
+                        <li>Depoimentos</li>
+                        <li>Ajuda</li>
+                        <li>Dicas</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -147,6 +164,17 @@
     <script src="js/aos.js"></script>
     <script type="text/javascript">
         AOS.init();
+
+        window.addEventListener('scroll', function () {
+            var navbar = document.querySelector('.navbarTop');
+
+            // Verifique se a janela foi rolada para baixo o suficiente para mostrar a navbar
+            if (window.scrollY > 200) { // Você pode ajustar o valor conforme necessário
+                navbar.classList.add('active');
+            } else {
+                navbar.classList.remove('active');
+            }
+        });
     </script>
 </body>
 </html>

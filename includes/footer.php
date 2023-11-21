@@ -3,32 +3,32 @@
         <div class="col-3">
             <span>Sobre</span>
             <ul>
-                <a href="quem-somos" target="_blank"><li>Quem somos</li></a>
-                <a href="servicos" target="_blank"><li>Serviços</li></a>
-                <a href="recursos" target="_blank"><li>Recursos</li></a>
-                <a href="perguntas-frequentes" target="_blank"><li>Perguntas Frequentes</li></a>
-                <a href="termos-e-condicoes" target="_blank"><li>Termos e Condições</li></a>
+                <a href="quem-somos"><li>Quem somos</li></a>
+                <a href="servicos"><li>Serviços</li></a>
+                <a href="recursos"><li>Recursos</li></a>
+                <a href="perguntas-frequentes"><li>Perguntas Frequentes</li></a>
+                <a href="termos-e-condicoes"><li>Termos e Condições</li></a>
             </ul>
         </div>
 
         <div class="col-3">
             <span>Aprendizado</span>
             <ul>
-                <a href="ajuda" target="_blank"><li>Ajuda</li></a>
-                <a href="dicas-para-negocios" target="_blank"><li>Dicas para negócios</li></a>
-                <a href="servicos-locais" target="_blank"><li>Serviços Locais</li></a>
-                <a href="depoimentos" target="_blank"><li>Depoimentos</li></a>
+                <a href="ajuda"><li>Ajuda</li></a>
+                <a href="dicas-para-negocios"><li>Dicas para negócios</li></a>
+                <a href="servicos-locais"><li>Serviços Locais</li></a>
+                <a href="depoimentos"><li>Depoimentos</li></a>
             </ul>
         </div>
 
         <div class="col-3">
             <span>Dicas</span>
             <ul>
-                <a href="dicas/restaurantes" target="_blank"><li>Restaurantes</li></a>
-                <a href="dicas/saloes-de-beleza" target="_blank"><li>Salões de Beleza</li></a>
-                <a href="dicas/mecanicas" target="_blank"><li>Mecânicas</li></a>
-                <a href="dicas/dentistas" target="_blank"><li>Dentistas</li></a>
-                <a href="dicas/moveis" target="_blank"><li>Móveis</li></a>
+                <a href="dicas/restaurantes"><li>Restaurantes</li></a>
+                <a href="dicas/saloes-de-beleza"><li>Salões de Beleza</li></a>
+                <a href="dicas/mecanicas"><li>Mecânicas</li></a>
+                <a href="dicas/dentistas"><li>Dentistas</li></a>
+                <a href="dicas/moveis"><li>Móveis</li></a>
             </ul>
         </div>
 
