@@ -4,6 +4,9 @@
     <?php include_once 'includes/heading.php'; ?>
 </head>
 <body>
+    <header>
+        <?php include_once 'includes/header.php'; ?>
+    </header>
     <h1>Ajuda</h1>
     
     <!-- SCRIPTS -->

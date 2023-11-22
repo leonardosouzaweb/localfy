@@ -6,24 +6,7 @@
 
 <body>
     <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-4 my-auto">
-                    <a href="./"><img src="assets/logo.svg" alt="logo"></a>
-                    <span>Conectando seu negócio <br>local ao mundo digital</span>
-                </div>
-
-                <div class="col-8 my-auto">
-                    <nav>
-                        <ul>
-                            <li>Geramos mais engajamento em seu negócio</li>
-                            <a href="" target="_blank"><li class="active">Preciso de ajuda agora</i>
-                            </li></a>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
+        <?php include_once 'includes/header.php'; ?>
     </header>
 
     <div class="content">

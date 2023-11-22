@@ -5,6 +5,9 @@
 </head>
 
 <body>
+    <header>
+        <?php include_once 'includes/header.php'; ?>
+    </header>
     <h1>Serviços Locais</h1>
 
     <!-- SCRIPTS -->

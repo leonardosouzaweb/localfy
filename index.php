@@ -5,41 +5,7 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="row pt-3 pb-3">
-                <div class="col-4 my-auto">
-                    <a href="./"><img src="assets/logo.svg" alt="logo"></a>
-                    <span>Conectando seu negócio <br>local ao mundo digital</span>
-                </div>
-
-                <div class="col-8 my-auto">
-                    <nav>
-                        <ul>
-                            <li>Geramos mais engajamento em seu negócio</li>
-                            <a href="" target="_blank"><li class="active">Preciso de ajuda agora</i>
-                            </li></a>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-
-        <div class="navbarTop">
-            <div class="container">
-                <div class="itens">
-                    <div>
-                        <h6>Navegação</h6>
-                    </div>
-                    <ul>
-                        <li>Home</li>
-                        <li>Quem somos</li>
-                        <li>Depoimentos</li>
-                        <li>Ajuda</li>
-                        <li>Dicas</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        <?php include_once 'includes/header.php'; ?>
     </header>
 
     <section>
@@ -53,7 +19,7 @@
                     área de atuação para encantar e capturar o interesse de mais clientes.
                     </p>
                     <div class="info">
-                        <a href="" target="_blank"><button class="btn btn-primary">Quero potencializar meu negócio!</button></a>
+                        <a href="" target="_blank"><button class="btn btn-primary">Quero potencializar meu negócio </button></a>
 
                         <img src="assets/foto.png">
                         <span>Fale com um <br>consultor agora</span>
@@ -62,6 +28,7 @@
 
                 <div class="col-6 my-auto relative hidden" data-aos="fade-up" data-aos-duration="900">
                     <img src="assets/app.png" class="info-l" alt="image">
+                    <img src="assets/app.png" class="info-l filter" alt="image">
                 </div>
             </div>
         </div>
@@ -72,6 +39,7 @@
             <div class="row">
                 <div class="col-6 my-auto relative" data-aos="fade-up" data-aos-duration="900">
                     <img src="assets/app2.png" class="info-r" alt="image">
+                    <img src="assets/app2.png" class="info-r filter" alt="image">
                 </div>
 
                 <div class="col-6 my-auto" data-aos="fade-up" data-aos-duration="900">
@@ -101,6 +69,7 @@
 
                 <div class="col-6 my-auto relative order-1-mobile" data-aos="fade-up" data-aos-duration="900">
                     <img src="assets/app3.png" class="info-l custom" alt="image">
+                    <img src="assets/app3.png" class="info-l filter" alt="image">
                 </div>
             </div>
         </div>
@@ -108,7 +77,7 @@
 
     <section class="bg">
         <div class="container">
-            <h5 data-aos="fade-down" data-aos-duration="900">Nossos clientes</h5>
+            <h5 data-aos="fade-down" data-aos-duration="900">Quem já usou nossos serviços</h5>
             <div class="logos" data-aos="fade-down" data-aos-duration="900">
                 <img src="assets/logos/l1.png" alt="image">
                 <img src="assets/logos/l2.png" alt="image">
@@ -150,6 +119,7 @@
 
                 <div class="col-6 my-auto relative order-1-mobile" data-aos="fade-down" data-aos-duration="900">
                     <img src="assets/app4.png" class="info-l custom" alt="image">
+                    <img src="assets/app4.png" class="info-l filter" alt="image">
                 </div>
             </div>
         </div>
@@ -162,19 +132,9 @@
     <!-- SCRIPTS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/aos.js"></script>
+    <script src="js/scripts.js"></script>
     <script type="text/javascript">
         AOS.init();
-
-        window.addEventListener('scroll', function () {
-            var navbar = document.querySelector('.navbarTop');
-
-            // Verifique se a janela foi rolada para baixo o suficiente para mostrar a navbar
-            if (window.scrollY > 200) { // Você pode ajustar o valor conforme necessário
-                navbar.classList.add('active');
-            } else {
-                navbar.classList.remove('active');
-            }
-        });
     </script>
 </body>
 </html>

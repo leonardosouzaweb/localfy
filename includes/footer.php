@@ -5,7 +5,6 @@
             <ul>
                 <a href="quem-somos"><li>Quem somos</li></a>
                 <a href="servicos"><li>Serviços</li></a>
-                <a href="recursos"><li>Recursos</li></a>
                 <a href="perguntas-frequentes"><li>Perguntas Frequentes</li></a>
                 <a href="termos-e-condicoes"><li>Termos e Condições</li></a>
             </ul>
@@ -22,17 +21,6 @@
         </div>
 
         <div class="col-3">
-            <span>Dicas</span>
-            <ul>
-                <a href="dicas/restaurantes"><li>Restaurantes</li></a>
-                <a href="dicas/saloes-de-beleza"><li>Salões de Beleza</li></a>
-                <a href="dicas/mecanicas"><li>Mecânicas</li></a>
-                <a href="dicas/dentistas"><li>Dentistas</li></a>
-                <a href="dicas/moveis"><li>Móveis</li></a>
-            </ul>
-        </div>
-
-        <div class="col-3">
             <span>Redes Sociais</span>
             <ul>
                 <a href="https://facebook.com/localfybrasil" target="_blank"><li><i class="bi-facebook" style="font-size: 20px;"></i> Facebook</li></a>
@@ -44,4 +32,15 @@
     </div>
     <hr>
     <p>Todos os direitos reservados - Localfy</p>
+</div>
+
+<div class="cookie" id="cookieConsent">
+    <p>Precisamos utilizar cookies para coletar informações sobre 
+    sua navegação em nosso website e melhorar sua experiência. Visite 
+    nossa <a href="">Página de Cookies</a> para mais informações. Você aceita o 
+    uso de cookies?</p>
+    <div class="buttons">
+        <button onclick="aceitarCookies()">Recuso os cookies</button>
+        <button onclick="aceitarCookies()">Aceito os cookies</button>
+    </div>
 </div>
