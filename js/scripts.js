@@ -37,3 +37,16 @@ if (getCookie('cookiesAceitos')) {
     var cookieConsent = document.getElementById('cookieConsent');
     cookieConsent.parentNode.removeChild(cookieConsent);
 }
+
+// MENU
+// Selecionando o elemento de toggle pelo ID
+const toggle = document.getElementById('toggle');
+
+// Adicionando um evento de clique ao elemento de toggle
+toggle.addEventListener('click', function() {
+    // Selecionando o menu de navegação
+    const menu = document.querySelector('nav');
+    
+    // Alternando a exibição do menu (mostrando/ocultando)
+    menu.classList.toggle('show');
+});

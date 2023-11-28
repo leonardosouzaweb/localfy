@@ -3,18 +3,17 @@
     $currentRoute = $_SERVER['REQUEST_URI'];
 
     // Define o título e a descrição padrões
-    $title = "Localfy";
+    $title = "Localfy | Impulsionando negócios locais";
     $description = "A sua empresa na web";
     $canonicalUrl = "https://localfy.com.br";
 
     // Verifica a rota e ajusta o título e a descrição conforme necessário
     switch ($currentRoute) {
-        case '/ajuda':
-            $title = "Ajuda | Localfy";
+        case '/quem-somos':
+            $title = "Quem somos | Localfy";
             $description = "Obtenha ajuda sobre como impulsionar seu negócio com Localfy";
-            $canonicalUrl = "https://localfy.com.br/ajuda";
+            $canonicalUrl = "https://localfy.com.br/quem-somos";
             break;
-        // Adicione mais casos conforme necessário
     }
 
     // Imprime as meta tags com os valores dinâmicos

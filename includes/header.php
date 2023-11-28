@@ -8,12 +8,15 @@
         <div class="col-8 my-auto">
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>Quem somos</li>
-                    <li>Serviços</li>
-                    <a href="" target="_blank"><li class="active">Quero potencializar meu negócio <img src="assets/ic-arrow.svg" alt="icone"></li></a>
+                    <a href="./"><li>Home</li></a>
+                    <a href="./quem-somos"><li>Quem somos</li></a>
+                    <a href="./servicos"><li>Serviços</li></a>
+                    <a href="https://api.whatsapp.com/send?phone=5511911102434&text=Preciso%20de%20ajuda%20com%20meu%20neg%C3%B3cio%20local!" target="_blank"><li class="active">Quero potencializar meu negócio <img src="assets/ic-arrow.svg" alt="icone"></li></a>
                 </ul>
             </nav>
         </div>
+    </div>
+    <div class="toggle" id="toggle">
+        <img src="assets/ic-menu.svg">
     </div>
 </div>
