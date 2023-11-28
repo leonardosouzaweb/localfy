@@ -125,6 +125,8 @@ section .logos img:hover { opacity: 0.5 !important; filter: grayscale(0%); }
     section:nth-child(5) .logos img { width: 45% !important; object-fit: initial !important; height: auto !important; margin-bottom: 30px !important; }
     section:nth-child(5) .logos img:last-child { display: none; }
 
+    section:nth-child(6) .container div:nth-child(1) button { width: 100%; }
+
 }
 
 footer { background: #fff; width: 100%; padding: 100px 0px; }
